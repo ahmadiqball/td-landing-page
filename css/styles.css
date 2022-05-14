@@ -1,0 +1,130 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+#title {
+  background-color: #ff4c68;
+
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+
+}
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+#press {
+  text-align: center;
+  background-color: #ef8172;
+}
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.body {
+  padding: 10px;
+}
+.price {
+  padding: 3% 2%;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.press-logo {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.icon {
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.feature-point {
+  text-align: center;
+  padding: 2%
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+.btn {
+  margin: 5% 3% 5% 0;
+}
+.iphone-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.cta-text {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.socmed {
+  margin: 0 1% 2%;
+}
+
+@media (max-width: 1028px ) {
+  .title-row {
+    text-align: center;
+  }
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
